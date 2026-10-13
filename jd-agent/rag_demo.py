@@ -1,7 +1,10 @@
 import os
 import re
 
+from dotenv import load_dotenv
 from openai import OpenAI
+
+load_dotenv(override=True)
 
 
 def retrieve(query: str, document: str, top_k: int = 3) -> list[str]:

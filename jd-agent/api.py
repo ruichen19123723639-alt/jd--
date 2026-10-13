@@ -6,11 +6,14 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
+from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException, Request
 from openai import APIConnectionError, APIStatusError, APITimeoutError, OpenAI
 from pydantic import BaseModel
 from pydantic import BaseModel, Field
 from pydantic import BaseModel, Field, ValidationError
+
+load_dotenv(override=True)
 from rag_demo import retrieve
 class AnalyzeRequest(BaseModel):
     jd: str = Field(min_length=1)
