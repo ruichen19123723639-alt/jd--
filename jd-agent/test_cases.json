@@ -1,0 +1,32 @@
+[
+  {
+    "name": "正常匹配",
+    "required_skills": ["Python", "FastAPI"],
+    "candidate_skills": ["Python", "FastAPI"],
+    "expected_score": 100
+  },
+  {
+    "name": "缺少技能",
+    "required_skills": ["Python", "FastAPI", "Docker"],
+    "candidate_skills": ["Python", "FastAPI"],
+    "expected_score": 67
+  },
+  {
+    "name": "大小写不同",
+    "required_skills": ["Python"],
+    "candidate_skills": ["python"],
+    "expected_score": 100
+  },
+  {
+    "name": "包含空格",
+    "required_skills": ["FastAPI"],
+    "candidate_skills": [" FastAPI "],
+    "expected_score": 100
+  },
+  {
+    "name": "岗位没有技能要求",
+    "required_skills": [],
+    "candidate_skills": ["Python"],
+    "expected_score": 100
+  }
+]

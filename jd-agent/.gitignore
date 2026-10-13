@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+evaluation_report.json
+memory.db

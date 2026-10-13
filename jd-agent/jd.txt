@@ -1,0 +1,14 @@
+AI应用开发工程师
+
+岗位职责：
+1. 参与大模型应用和智能体系统开发。
+2. 负责RAG知识库、工具调用和工作流设计。
+3. 使用Python和FastAPI开发后端服务。
+4. 编写测试，分析模型输出质量并持续优化。
+
+任职要求：
+1. 熟悉Python编程。
+2. 了解HTTP、JSON和REST API。
+3. 了解大模型、Prompt、Embedding和向量数据库。
+4. 有Agent或RAG项目经验。
+5. 了解Docker和Git。
